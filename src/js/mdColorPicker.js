@@ -900,6 +900,7 @@ angular.module('mdColorPicker', [])
 					targetEvent: options.$event,
 					focusOnOpen: options.focusOnOpen,
 					autoWrap: false,
+					multiple: true,
 					onShowing: function() {
 				//		console.log( "DIALOG OPEN START", Date.now() - dateClick );
 					},
